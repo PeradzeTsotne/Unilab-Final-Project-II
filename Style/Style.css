@@ -1,0 +1,183 @@
+  html,
+  body {
+      width: 100%;
+      height: 100%;
+  }
+
+  body {
+      padding: 1.5% 2.9%;
+      background: #FFEEEE;
+      /* fallback for old browsers */
+      background: -webkit-linear-gradient(to right, #DDEFBB, #FFEEEE);
+      /* Chrome 10-25, Safari 5.1-6 */
+      background: linear-gradient(to right, #DDEFBB, #FFEEEE);
+      /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+  }
+
+  .dispf {
+      display: flex;
+  }
+
+  /* Navigation */
+
+  nav {
+      height: 10vh;
+      background: #FFEEEE;
+      /* fallback for old browsers */
+      background: -webkit-linear-gradient(to right, #DDEFBB, #FFEEEE);
+      /* Chrome 10-25, Safari 5.1-6 */
+      background: linear-gradient(to right, #DDEFBB, #FFEEEE);
+      /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+      margin-bottom: 15px;
+      position: relative;
+  }
+
+  .nav-links {
+      list-style: none;
+      /* width: 50%;
+      height: 100%; */
+      justify-content: space-around;
+      align-items: center;
+      margin-left: auto;
+      position: fixed;
+      background: #BBD2C5;
+      /* fallback for old browsers */
+      background: -webkit-linear-gradient(to right, #292E49, #536976, #BBD2C5);
+      /* Chrome 10-25, Safari 5.1-6 */
+      background: linear-gradient(to right, #292E49, #536976, #BBD2C5);
+      /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+      height: 100vh;
+      width: 100%;
+      flex-direction: column;
+      clip-path: circle(0px at 90% 10%);
+      -webkit-clip-path: circle(0px at 90% 10%);
+      transition: all 1s ease-out;
+  }
+
+  .nav-links li:hover {
+      text-decoration: underline;
+  }
+
+
+  .nav-links li a {
+      color: white;
+      font-size: 25px;
+      font-family: 'Russo One', sans-serif;
+      text-transform: uppercase;
+  }
+
+  .nav-links li {
+      opacity: 0;
+  }
+
+  .nav-links li:nth-child(1) {
+      transition: all 0.5s ease 1.5s;
+  }
+
+  .nav-links li:nth-child(2) {
+      transition: all 0.5s ease 1.7s;
+  }
+
+  .nav-links li:nth-child(3) {
+      transition: all 0.5s ease 2.0s;
+  }
+
+  li.fade {
+      opacity: 1;
+  }
+
+
+
+  .line {
+      width: 30px;
+      height: 3px;
+      background: #BBD2C5;
+      /* fallback for old browsers */
+      background: -webkit-linear-gradient(to right, #292E49, #536976, #BBD2C5);
+      /* Chrome 10-25, Safari 5.1-6 */
+      background: linear-gradient(to right, #292E49, #536976, #BBD2C5);
+      /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+
+      margin: 5px;
+  }
+
+
+
+  .hamburger {
+      position: absolute;
+      cursor: pointer;
+      right: 5%;
+      top: 50%;
+      transform: translate(-5%, -50%);
+      z-index: 2;
+  }
+
+  .nav-links.open {
+      clip-path: circle(1366px at 90% 10%);
+      -webkit-clip-path: circle(1366px at 90% 10%);
+
+  }
+
+
+  /* ========================= */
+
+  .main-box-container {
+      justify-content: space-between;
+      align-items: inherit;
+      max-width: 100%;
+  }
+
+  .boxes {
+      min-height: 530px;
+      width: 300px;
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat;
+      -webkit-box-shadow: 11px 10px 16px -6px rgba(0, 0, 0, 0.75);
+      -moz-box-shadow: 11px 10px 16px -6px rgba(0, 0, 0, 0.75);
+      box-shadow: 11px 10px 16px -6px rgba(0, 0, 0, 0.75);
+      border-radius: 73px 73px 73px 73px;
+      -moz-border-radius: 73px 73px 73px 73px;
+      -webkit-border-radius: 73px 73px 73px 73px;
+      border: 0px solid #000000;
+  }
+
+  .main-box-container .frst1 {
+      background-image: url(../Img/jobsat.jpg);
+
+  }
+
+  .main-box-container :nth-of-type(2) {
+      background-image: url(../Img/workingplace.jpg);
+  }
+
+  .main-box-container :nth-of-type(3) {
+      background-image: url(../Img/Blog.jpg);
+  }
+
+  .main-box-container :nth-of-type(4) {
+      background-image: url(../Img/aboutus.jpg);
+  }
+
+  .wrapp {
+      justify-content: center;
+      align-items: center;
+      min-height: 530px;
+      max-width: 300px;
+      color: rgb(255, 250, 205);
+      text-shadow: -7px 3px 5px rgba(0, 0, 0, 0.29);
+  }
+
+  .wrapp h2 {
+      font-family: 'Srisakdi', cursive;
+      font-size: 40px;
+      font-weight: bolder;
+      text-align: center;
+      background-image: none !important;
+
+  }
