@@ -8,67 +8,147 @@
     <link rel="stylesheet" href="Style/Style.css" />
     <link rel="stylesheet" href="//cdn.web-fonts.ge/fonts/bpg-classic-medium/css/bpg-classic-medium.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
     <title>Job Satisfaction</title>
 </head>
 
 <body>
-    <div class="home">
-        <a href="index.html" class="home-btn">
-            <i class="fas fa-home home-btn-home"></i>
-        </a>
-    </div>
-    <div class="container dispf">
-
-        <div class="box-st dispf">
-            <h3>სამუშაო კმაყოფილება</h3>
-            <p>თანამედროვე სამყაროში, ორგანიზაციების გარკვეული ნაწილი დგას იმ გამოწვევების წინაშე, რომელიც ეხება სამუშაო
-                გარემოს გაუმჯობესებას. ბიზნესის ერთ-ერთი მთავარი გამოწვევაა საკუთარი თანამშრომლებისთვის შესაბამისი
-                გარემოს შექმნა, მათ კმაყოფილებაზე ზრუნვა, რათა სამომავლოდ მოხდეს განვითარებული გარემოს ჩამოყალიბება,
-                კონკურენტულ გარემოში პოზიციონირება და წარმატების მიღწევა. </p>
-            <p>იმისათვის რომ ბიზნესს ჰყავდეს ეფექტური და პროდუქტიული თანამშრომლები, საჭიროა თანამშრომლებზე ზრუნვა, მათი
-                შეხედულებების გათვალისწინება და სამართლიანი სამუშაო გარემოს შექმნა. ძირითად
-                შემთხვევებში, ბიზნესის შემქმნელებს არ აქვთ წარმოდგენა და ვერ ათვიცნობიერებენ იმ მნიშვნელობას რასაც
-                კმაყოფილი თანამშრომელი ჰქვია. </p>
-
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+        <a class="navbar-brand" href="#">X-Company</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+            aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Training</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Contact</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">About Us</a>
+                </li>
+            </ul>
+            <form class="form-inline ml-auto">
+                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+            </form>
+        </div>
+    </nav>
+    <div class="container-fluid dispf">
+        <div class="main-box">
+            <div class="jumbotron">
+                <h1 class="display-4">Job Satisfaction</h1>
+                <p class="lead"> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cum iure aspernatur beatae
+                    natus eligendi veniam libero, vitae consequatur corrupti hic officia reiciendis, quasi, laborum
+                    recusandae optio excepturi illum voluptatibus saepe. </p>
+                <hr class="my-4">
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Soluta laudantium beatae sequi, voluptate
+                    incidunt fuga unde voluptates accusamus nam dicta.
+                </p>
+                <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
+            </div>
         </div>
     </div>
-    <section>
-        <div class="container2 dispf">
-            <div class="box-st-2">
-                <div class="child-box"></div>
-                <div class="child-box-txt">
-                    <p>თანამშრომლებზე და მათ კმაყოფილებაზე ზრუნვა საკმაოდ მნიშვნელოვანი პროცესია. უკმაყოფილო
-                        თანამშრომელი ხდება ნაკლებად პროდუქტიული ორგანიზაციისთვის, უფრო მეტი გადაცდომები არის მის
-                        საქმიანობაში, რომელიც იწვევს სერვისის გაუმართაობას. კომპანიის მისიები, ხედვები და ფუნდამეტალური
-                        ღირებულებები უნდა ეფუძნებოდეს ადამიანურ კაპიტალს. ადამიანური კაპიტალი, ეს არის კმაყოფილი
-                        თანამშრომელი, რომელიც ბიზნეს საქმიანობას ხდის უფრო მეტად ეფექტურს და უდიდესი წვლილი აქვს მისი
-                        წარმატების მიღწევაში. </p>
+    <section class="section-box ">
+        <div id="multi-item-example" class="carousel slide carousel-multi-item" data-ride="carousel">
+            <div class="carousel-inner" role="listbox">
+                <!--First slide-->
+                <div class="carousel-item active dispf">
+
+                    <div class="col-md-3" style="float:left">
+                        <div class="card mb-2">
+                            <img class="card-img-top" src="Img/workingplace.jpg" alt="Workin Environment">
+                            <div class="card-body">
+                                <h4 class="card-title">Working Environment</h4>
+                                <p class="card-text"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam
+                                    dolor, ratione beatae architecto praesentium repellendus! </p>
+                                <a class="btn btn-primary">Learn More</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3" style="float:left">
+                        <div class="card mb-2">
+                            <img class="card-img-top" src="Img/workingplace.jpg" alt="Productivity">
+                            <div class="card-body">
+                                <h4 class="card-title">Employee productivity</h4>
+                                <p class="card-text"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam
+                                    dolor, ratione beatae architecto praesentium repellendus! </p>
+                                <a class="btn btn-primary">Learn More</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3" style="float:left">
+                        <div class="card mb-2">
+                            <img class="card-img-top" src="Img/workingplace.jpg" alt="Work-Life">
+                            <div class="card-body">
+                                <h4 class="card-title">Work-Life Balance</h4>
+                                <p class="card-text"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam
+                                    dolor, ratione beatae architecto praesentium repellendus! </p>
+                                <a class="btn btn-primary">Learn More</a>
+                            </div>
+                        </div>
+                    </div>
+
                 </div>
+            </div>
+            <!--/.Slides-->
+        </div>
+        <!--/.Carousel Wrapper-->
+    </section>
+    <section>
+        <div class="container-box dispf col-md-12">
+            <div class="motivation-box">
+                <div class="box-mt video-mt">
+                    <iframe
+                        src="https://r2---sn-4g5edns7.googlevideo.com/videoplayback?expire=1598654520&ei=2DNJX8qCNt7a4-EP7Jm26AI&ip=103.148.242.132&id=o-AIwBGtf58RBnA0GIFHA1Ntl-LLCUKBgr3Y7qsuAWX_1M&itag=137&aitags=133%2C134%2C135%2C136%2C137%2C160%2C242%2C243%2C244%2C247%2C248%2C278%2C298%2C299%2C302%2C303%2C394%2C395%2C396%2C397%2C398&source=youtube&requiressl=yes&vprv=1&mime=video%2Fmp4&gir=yes&clen=30251516&dur=258.466&lmt=1576958978654447&fvip=6&keepalive=yes&c=WEB&txp=5432432&sparams=expire%2Cei%2Cip%2Cid%2Caitags%2Csource%2Crequiressl%2Cvprv%2Cmime%2Cgir%2Cclen%2Cdur%2Clmt&sig=AOq0QJ8wRQIhAJ-DAOSWT-4GR7PKLWDHCRjhcxqsfz-hvc-WlG4KN1BZAiB84TNFvdNmg5Dv9NDnYVGxgaEGIaani7mfJjrlzoi74Q%3D%3D&title=I%2BDare%2BYou%2BTo%2BWork%2BOn%2BYourself%2BFor%2B6%2BMonths%2B(Motivational%2BSpeech)&cm2rm=sn-h5bupjvh-ucn67l,sn-nv4s77d&req_id=9595127f5a76a3ee&ipbypass=yes&redirect_counter=2&cms_redirect=yes&mh=vA&mip=212.58.103.15&mm=34&mn=sn-4g5edns7&ms=ltu&mt=1598632827&mv=m&mvi=2&pl=24&lsparams=ipbypass,mh,mip,mm,mn,ms,mv,mvi,pl&lsig=AG3C_xAwRgIhANkMiPsurEDBZaAJlnTw6shN7X-YK8VCCrHx5HTG2ZsHAiEAhOyslhoXUDk7tfOhq8W78Xd10aaLUI-XkZRK7NWVjpk%3D"
+                        width="600" height="394" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+                </div>
+                <div class="box-mt-txt">
+                    <div class="title-mt">
+                        <h3>Motivation</h3>
+                    </div>
+                    <hr>
+                    <div class="text-md">
+                        <p>"Yesterday's home runs don't win today's games." "If you work just for money, you'll never
+                            make it, but if you love what you're doing and you always put the customer first, success
+                            will be yours." "When writing the story of your life, don't let anyone else hold the pen."
+                        </p>
+                    </div>
+                    <div class="btn-mt">
+                        <button type="button" class="btn btn-primary btn-lg btn-mt">Read more</button>
+                    </div>
+                </div>
+                <div class="box-mt-third"></div>
             </div>
         </div>
     </section>
     <section>
-        <div class="container3 dispf">
-            <div class="box-st-3">
-                <div class="child-box-txt1">
-                    <p>თანამშრომლებზე და მათ კმაყოფილებაზე ზრუნვა საკმაოდ მნიშვნელოვანი პროცესია. უკმაყოფილო
-                        თანამშრომელი ხდება ნაკლებად პროდუქტიული ორგანიზაციისთვის, უფრო მეტი გადაცდომები არის მის
-                        საქმიანობაში, რომელიც იწვევს სერვისის გაუმართაობას. კომპანიის მისიები, ხედვები და ფუნდამეტალური
-                        ღირებულებები უნდა ეფუძნებოდეს ადამიანურ კაპიტალს. ადამიანური კაპიტალი, ეს არის კმაყოფილი
-                        თანამშრომელი, რომელიც ბიზნეს საქმიანობას ხდის უფრო მეტად ეფექტურს და უდიდესი წვლილი აქვს მისი
-                        წარმატების მიღწევაში. </p>
+        <div class="container-train col-md-12 dispf">
+            <div class="box-tr dispf">
+                <div class="tr-box1">
+                    <h2>PEOPLE MANAGEMENT MADE SIMPLE</h2>
+                    <hr>
+                    <span>We offer a full suite of HR services and support, completely tailored to your needs.</span>
                 </div>
-                <div class="child-box1"></div>
+                <div class="tr-box2">
+                    <button type="button" class="btn btn-primary btn-lg btn-mt">Click Me</button>
+                </div>
             </div>
         </div>
-        <div class="btn">
-            <button>Load More</button>
-        </div>
     </section>
+
 
 
     <script src="Style/app.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/js/all.min.js"></script>
+
 </body>
 
 </html>

@@ -8,3 +8,6 @@ hamburger.addEventListener('click', () => {
         link.classList.toggle('fade');
     })
 })
+$('.carousel').carousel({
+    interval: 2000
+})
