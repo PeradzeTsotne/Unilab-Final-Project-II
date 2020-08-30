@@ -6,73 +6,479 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link rel="stylesheet" href="Style/reset.css" />
   <link rel="stylesheet" href="Style/Style.css" />
+  <link rel="stylesheet" href="//cdn.web-fonts.ge/fonts/bpg-classic-medium/css/bpg-classic-medium.min.css" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css" />
-  <link href="https://fonts.googleapis.com/css2?family=Srisakdi:wght@700&display=swap" rel="stylesheet" />
-  <link href="https://fonts.googleapis.com/css2?family=Russo+One&display=swap" rel="stylesheet" />
-  <title>Motivation</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200&family=Roboto:wght@100&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <title>Home</title>
 </head>
 
 <body>
-  <nav>
-    <div class="nav-and-logo">
-      <h3> <strong class="comp-nm">X-Company </strong> - consulting and training services </h3>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+    <a class="navbar-brand" href="index.html">X-Company</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+      aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+      <ul class="navbar-nav">
+        <li class="nav-item active">
+          <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Training</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Events</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="contact.html">Contact</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="about.html">About Us</a>
+        </li>
+      </ul>
+      <ol class="breadcrumb ml-auto" style="background-color: none">
+        <li class="breadcrumb-item"><a href="#">Log in</a></li>
+        <li class="breadcrumb-item active" aria-current="page">Sign up</li>
+      </ol>
+      <form class="form-inline ml-auto">
+        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search" />
+        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">
+          Search
+        </button>
+      </form>
     </div>
-    <div class="hamburger">
-      <div class="line"></div>
-      <div class="line"></div>
-      <div class="line"></div>
-    </div>
-    <ul class="nav-links dispf">
-      <li class="hvr-underline-from-center"><a href="#">Home</a></li>
-      <li class="hvr-underline-from-center"><a href="#">Training</a></li>
-      <li class="hvr-underline-from-center"><a href="#">Contact</a></li>
-      <li class="hvr-underline-from-center"><a href="#">About US</a></li>
-    </ul>
   </nav>
+  <div class="container-fluid dispf">
+    <div class="main-box">
+      <div class="jumbotron">
+        <h1 class="display-4">Job Satisfaction</h1>
+        <p class="lead">
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cum iure
+          aspernatur beatae natus eligendi veniam libero, vitae consequatur
+          corrupti hic officia reiciendis, quasi, laborum recusandae optio
+          excepturi illum voluptatibus saepe.
+        </p>
+        <hr class="my-4" />
+        <p>
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Soluta
+          laudantium beatae sequi, voluptate incidunt fuga unde voluptates
+          accusamus nam dicta.
+        </p>
+        <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
+      </div>
+    </div>
+  </div>
+  <section class="section-box col-lr-12">
+    <div id="multi-item-example" class="carousel slide carousel-multi-item" data-ride="carousel">
+      <div class="carousel-inner" role="listbox">
+        <!--First slide-->
+        <div class="carousel-item active dispf">
+          <div class="col-md-3" style="float: left;background-color:white">
+            <div class="card mb-2">
+              <img class="card-img-top" src="Img/workingplace.jpg" alt="Workin Environment" />
+              <div class="card-body">
+                <h4 class="card-title" style="color: black; font-weight: bolder; font-size: 27px">
+                  Working Environment
+                </h4>
+                <p class="card-text">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                  Nam dolor, ratione beatae architecto praesentium
+                  repellendus!
+                </p>
+                <a class="btn btn-primary">Learn More</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3" style="float: left;background-color:white">
+            <div class="card mb-2">
+              <img class="card-img-top" src="Img/workingplace.jpg" alt="Productivity" />
+              <div class="card-body">
+                <h4 class="card-title" style="color: black; font-weight: bolder; font-size: 27px">
+                  Employee productivity
+                </h4>
+                <p class="card-text">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                  Nam dolor, ratione beatae architecto praesentium
+                  repellendus!
+                </p>
+                <a class="btn btn-primary">Learn More</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3" style="float: left;background-color:white">
+            <div class="card mb-2">
+              <img class="card-img-top" src="Img/workingplace.jpg" alt="Work-Life" />
+              <div class="card-body">
+                <h4 class="card-title" style="color: black; font-weight: bolder; font-size: 27px">
+                  Work-Life Balance
+                </h4>
+                <p class="card-text">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                  Nam dolor, ratione beatae architecto praesentium
+                  repellendus!
+                </p>
+                <a class="btn btn-primary">Learn More</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--/.Slides-->
+    </div>
+    <!--/.Carousel Wrapper-->
+  </section>
+  <section>
+    <div class="container-box dispf col-md-12">
+      <div class="motivation-box">
+        <div class="box-mt video-mt">
+          <div style="width:100%;height:0px;position:relative;padding-bottom:56.250%;"><iframe
+              src="https://streamable.com/e/mn6te2?autoplay=1" frameborder="0" width="100%" height="100%"
+              allowfullscreen
+              style="width:100%;height:100%;position:absolute;left:0px;top:0px;overflow:hidden;"></iframe>
+          </div>
 
-  <div class="main-box-container dispf">
-    <div class="boxes frst1 animate__slideInLeft hvr-float-shadow">
-      <div class="parent-text-box">
-        <div class="wrapp dispf">
-          <h2 class="animate__bounceInDown">
-            <a href="jobst.html" class="hvr-grow-shadow">Job Satisfaction</a>
+        </div>
+        <div class="box-mt-txt">
+          <div class="title-mt">
+            <h3 style="font-size: 50px; font-weight: bolder">Motivation</h3>
+          </div>
+          <hr />
+          <div class="text-md">
+            <p style="font-weight: bolder">
+              "Yesterday's home runs don't win today's games." "If you work
+              just for money, you'll never make it, but if you love what
+              you're doing and you always put the customer first, success will
+              be yours." "When writing the story of your life, don't let
+              anyone else hold the pen."
+            </p>
+          </div>
+          <div class="btn-mt">
+            <button type="button" class="btn btn-primary btn-lg btn-mt">
+              Read more
+            </button>
+          </div>
+        </div>
+        <div class="box-mt-third"></div>
+      </div>
+    </div>
+  </section>
+  <section>
+    <div class="container-train col-md-12 dispf">
+      <div class="box-tr dispf">
+        <div class="tr-box1">
+          <h2 style="font-size: 40px; font-weight: bolder">
+            PEOPLE MANAGEMENT MADE SIMPLE
           </h2>
+          <hr />
+          <span style="font-weight: bolder">We offer a full suite of HR services and support, completely
+            tailored to your needs.</span>
+        </div>
+        <div class="tr-box2">
+          <button type="button" class="btn btn-primary btn-lg btn-mt">
+            Click Me
+          </button>
         </div>
       </div>
     </div>
-    <div class="boxes animate__slideInLeft hvr-float-shadow">
-      <div class="parent-text-box">
-        <div class="wrapp dispf">
-          <h2 class="animate__bounceInDown">
-            <a href="#" class="hvr-grow-shadow">Training</a>
-          </h2>
+  </section>
+  <section>
+    <div class="container-request col-md-12 dispf container-fluid">
+      <div class="box-rqs dispf">
+        <div class="box-rqs-cont"></div>
+        <div class="box-rqs-txt">
+          <h2 style="color: black">REGISTER FOR YOUR FREE CONSULTATION</h2>
+          <hr />
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Saepe
+            harum error at libero explicabo consequuntur, accusantium fugiat
+            quae temporibus quibusdam culpa necessitatibus magnam accusamus
+            modi.
+          </p>
+          <button type="button" class="btn btn-primary btn-lg btn-mt">
+            Register Now
+          </button>
         </div>
       </div>
     </div>
-    <div class="boxes animate__slideInLeft hvr-float-shadow">
-      <div class="parent-text-box">
-        <div class="wrapp dispf">
-          <h2 class="animate__bounceInDown">
-            <a href="#" class="hvr-grow-shadow">Contact</a>
-          </h2>
+  </section>
+  <!-- ============================================Contact Page======================================== -->
+  <div class="container contact" style="margin-top: 50px;">
+    <div class="row">
+      <div class="col-md-3">
+        <div class="contact-info">
+          <img src="https://image.ibb.co/kUASdV/contact-image.png" alt="image" />
+          <h2>Contact Us</h2>
+          <h4>We would love to hear from you !</h4>
+        </div>
+      </div>
+      <div class="col-md-9">
+        <div class="contact-form">
+          <div class="form-group">
+            <label class="control-label col-sm-2" for="fname">First Name:</label>
+            <div class="col-sm-10">
+              <input type="text" class="form-control" id="fname" placeholder="Enter First Name" name="fname">
+            </div>
+          </div>
+          <div class="form-group">
+            <label class="control-label col-sm-2" for="lname">Last Name:</label>
+            <div class="col-sm-10">
+              <input type="text" class="form-control" id="lname" placeholder="Enter Last Name" name="lname">
+            </div>
+          </div>
+          <div class="form-group">
+            <label class="control-label col-sm-2" for="email">Email:</label>
+            <div class="col-sm-10">
+              <input type="email" class="form-control" id="email" placeholder="Enter email" name="email">
+            </div>
+          </div>
+          <div class="form-group">
+            <label class="control-label col-sm-2" for="comment">Comment:</label>
+            <div class="col-sm-10">
+              <textarea class="form-control" rows="5" id="comment"></textarea>
+            </div>
+          </div>
+          <div class="form-group">
+            <div class="col-sm-offset-2 col-sm-10">
+              <button type="submit" class="btn btn-default">Submit</button>
+            </div>
+          </div>
         </div>
       </div>
     </div>
-    <div class="boxes animate__slideInLeft hvr-float-shadow">
-      <div class="parent-text-box">
-        <div class="wrapp dispf">
-          <h2 class="animate__bounceInDown">
-            <a href="#" class="hvr-grow-shadow">About Us</a>
-          </h2>
+  </div>
+  <!-- ====================================About Us===================================== -->
+  <div class="bg-light">
+    <div class="container py-5">
+      <div class="row h-100 align-items-center py-5">
+        <div class="col-lg-6">
+          <h1 class="display-4">About us page</h1>
+          <p class="lead text-muted mb-0">Create a minimal about us page using Bootstrap 4.</p>
+          <p class="lead text-muted">Snippet by <a href="https://bootstrapious.com/snippets" class="text-muted">
+              <u>Bootstrapious</u></a>
+          </p>
+        </div>
+        <div class="col-lg-6 d-none d-lg-block"><img
+            src="https://res.cloudinary.com/mhmd/image/upload/v1556834136/illus_kftyh4.png" alt="" class="img-fluid">
         </div>
       </div>
     </div>
   </div>
 
+  <div class="bg-white py-5">
+    <div class="container py-5">
+      <div class="row align-items-center mb-5">
+        <div class="col-lg-6 order-2 order-lg-1"><i class="fa fa-bar-chart fa-2x mb-3 text-primary"></i>
+          <h2 class="font-weight-light">Lorem ipsum dolor sit amet</h2>
+          <p class="font-italic text-muted mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed
+            do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p><a href="#"
+            class="btn btn-light px-5 rounded-pill shadow-sm">Learn More</a>
+        </div>
+        <div class="col-lg-5 px-5 mx-auto order-1 order-lg-2"><img
+            src="https://res.cloudinary.com/mhmd/image/upload/v1556834139/img-1_e25nvh.jpg" alt=""
+            class="img-fluid mb-4 mb-lg-0"></div>
+      </div>
+      <div class="row align-items-center">
+        <div class="col-lg-5 px-5 mx-auto"><img
+            src="https://res.cloudinary.com/mhmd/image/upload/v1556834136/img-2_vdgqgn.jpg" alt=""
+            class="img-fluid mb-4 mb-lg-0"></div>
+        <div class="col-lg-6"><i class="fa fa-leaf fa-2x mb-3 text-primary"></i>
+          <h2 class="font-weight-light">Lorem ipsum dolor sit amet</h2>
+          <p class="font-italic text-muted mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed
+            do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p><a href="#"
+            class="btn btn-light px-5 rounded-pill shadow-sm">Learn More</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="bg-light py-5">
+    <div class="container py-5">
+      <div class="row mb-4">
+        <div class="col-lg-5">
+          <h2 class="display-4 font-weight-light">Our team</h2>
+          <p class="font-italic text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+        </div>
+      </div>
+
+      <div class="row text-center">
+        <!-- Team item-->
+        <div class="col-xl-3 col-sm-6 mb-5">
+          <div class="bg-white rounded shadow-sm py-5 px-4"><img src="Img/men2.jpg" alt="Person" width="200"
+              class="img-fluid rounded-circle mb-3 img-thumbnail shadow-sm">
+            <h5 class="mb-0">Samuel Hardy</h5><span class="small text-uppercase text-muted">Trainer</span>
+            <ul class="social mb-0 list-inline mt-3">
+              <li class="list-inline-item"><a href="#" class="social-link"><i class="fa fa-facebook-f"></i></a></li>
+              <li class="list-inline-item"><a href="#" class="social-link"><i class="fa fa-twitter"></i></a></li>
+              <li class="list-inline-item"><a href="#" class="social-link"><i class="fa fa-instagram"></i></a></li>
+              <li class="list-inline-item"><a href="#" class="social-link"><i class="fa fa-linkedin"></i></a></li>
+            </ul>
+          </div>
+        </div>
+        <!-- End-->
+
+        <!-- Team item-->
+        <div class="col-xl-3 col-sm-6 mb-5">
+          <div class="bg-white rounded shadow-sm py-5 px-4"><img src="Img/wmn.jpg" alt="Person" width="200"
+              class="img-fluid rounded-circle mb-3 img-thumbnail shadow-sm">
+            <h5 class="mb-0">Manuella Nevoresky</h5><span class="small text-uppercase text-muted">Trainer</span>
+            <ul class="social mb-0 list-inline mt-3">
+              <li class="list-inline-item"><a href="#" class="social-link"><i class="fa fa-facebook-f"></i></a></li>
+              <li class="list-inline-item"><a href="#" class="social-link"><i class="fa fa-twitter"></i></a></li>
+              <li class="list-inline-item"><a href="#" class="social-link"><i class="fa fa-instagram"></i></a></li>
+              <li class="list-inline-item"><a href="#" class="social-link"><i class="fa fa-linkedin"></i></a></li>
+            </ul>
+          </div>
+        </div>
+        <!-- End-->
+
+        <!-- Team item-->
+        <div class="col-xl-3 col-sm-6 mb-5">
+          <div class="bg-white rounded shadow-sm py-5 px-4"><img src="Img/men3.jpg" alt="Person" width="200"
+              class="img-fluid rounded-circle mb-3 img-thumbnail shadow-sm">
+            <h5 class="mb-0">Tom Sunderland</h5><span class="small text-uppercase text-muted">Trainer</span>
+            <ul class="social mb-0 list-inline mt-3">
+              <li class="list-inline-item"><a href="#" class="social-link"><i class="fa fa-facebook-f"></i></a></li>
+              <li class="list-inline-item"><a href="#" class="social-link"><i class="fa fa-twitter"></i></a></li>
+              <li class="list-inline-item"><a href="#" class="social-link"><i class="fa fa-instagram"></i></a></li>
+              <li class="list-inline-item"><a href="#" class="social-link"><i class="fa fa-linkedin"></i></a></li>
+            </ul>
+          </div>
+        </div>
+        <!-- End-->
+
+        <!-- Team item-->
+        <div class="col-xl-3 col-sm-6 mb-5">
+          <div class="bg-white rounded shadow-sm py-5 px-4"><img src="Img/wmn1.jpg" alt="Person" width="200"
+              class="img-fluid rounded-circle mb-3 img-thumbnail shadow-sm">
+            <h5 class="mb-0">Lorem ipsum</h5><span class="small text-uppercase text-muted">Trainer</span>
+            <ul class="social mb-0 list-inline mt-3">
+              <li class="list-inline-item"><a href="#" class="social-link"><i class="fa fa-facebook-f"></i></a></li>
+              <li class="list-inline-item"><a href="#" class="social-link"><i class="fa fa-twitter"></i></a></li>
+              <li class="list-inline-item"><a href="#" class="social-link"><i class="fa fa-instagram"></i></a></li>
+              <li class="list-inline-item"><a href="#" class="social-link"><i class="fa fa-linkedin"></i></a></li>
+            </ul>
+          </div>
+        </div>
+        <!-- End-->
+
+      </div>
+    </div>
+  </div>
+  <footer>
+    <footer class="new_footer_area bg_color">
+      <div class="new_footer_top">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-3 col-md-6">
+              <div class="f_widget company_widget wow fadeInLeft" data-wow-delay="0.2s" style="
+                visibility: visible;
+                animation-delay: 0.2s;
+                animation-name: fadeInLeft;
+              ">
+                <h3 class="f-title f_600 t_color f_size_18">Get in Touch</h3>
+                <p>
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                  Nihil, nesciunt! Modi non maxime doloremque amet, ratione
+                  nihil eveniet molestiae consequuntur praesentium ea delectus
+                  molestias cumque animi, autem corrupti accusamus ab?
+                </p>
+                <form action="#" class="f_subscribe_two mailchimp" method="post" novalidate="true" _lpchecked="1">
+                  <input type="text" name="EMAIL" class="form-control memail" placeholder="Email" />
+                  <button class="btn btn_get btn_get_two" type="submit">
+                    Subscribe
+                  </button>
+                  <p class="mchimp-errmessage" style="display: none"></p>
+                  <p class="mchimp-sucmessage" style="display: none"></p>
+                </form>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-6">
+              <div class="f_widget about-widget pl_70 wow fadeInLeft" data-wow-delay="0.4s" style="
+                visibility: visible;
+                animation-delay: 0.4s;
+                animation-name: fadeInLeft;
+              ">
+                <h3 class="f-title f_600 t_color f_size_18">Download</h3>
+                <ul class="list-unstyled f_list">
+                  <li><a href="#">Company</a></li>
+                  <li><a href="#">Trainings</a></li>
+                  <li><a href="#">Blog</a></li>
+                  <li><a href="#">Application Form</a></li>
+                  <li><a href="#">Projects</a></li>
+                  <li><a href="#">My tasks</a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-6">
+              <div class="f_widget about-widget pl_70 wow fadeInLeft" data-wow-delay="0.6s" style="
+                visibility: visible;
+                animation-delay: 0.6s;
+                animation-name: fadeInLeft;
+              ">
+                <h3 class="f-title f_600 t_color f_size_18">Help</h3>
+                <ul class="list-unstyled f_list">
+                  <li><a href="#">FAQ</a></li>
+                  <li><a href="#">Term &amp; conditions</a></li>
+                  <li><a href="#">Reporting</a></li>
+                  <li><a href="#">Documentation</a></li>
+                  <li><a href="#">Support Policy</a></li>
+                  <li><a href="#">Privacy</a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-6">
+              <div class="f_widget social-widget pl_70 wow fadeInLeft" data-wow-delay="0.8s" style="
+                visibility: visible;
+                animation-delay: 0.8s;
+                animation-name: fadeInLeft;
+              ">
+                <h3 class="f-title f_600 t_color f_size_18">
+                  Team Solutions
+                </h3>
+                <div class="f_social_icon">
+                  <a href="#" class="fab fa-facebook"></a>
+                  <a href="#" class="fab fa-twitter"></a>
+                  <a href="#" class="fab fa-linkedin"></a>
+                  <a href="#" class="fab fa-pinterest"></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="footer_bg">
+          <div class="footer_bg_one"></div>
+          <div class="footer_bg_two"></div>
+        </div>
+      </div>
+      <div class="footer_bottom">
+        <div class="container">
+          <div class="row align-items-center">
+            <div class="col-lg-6 col-sm-7">
+              <p class="mb-0 f_400">© X-company 2020 All rights reserved.</p>
+            </div>
+            <div class="col-lg-6 col-sm-5 text-right">
+              <p>
+                Made with <i class="icon_heart"></i> in
+                <a href="#">Tsotne Peradze</a>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </footer>
+
   <script src="Style/app.js"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
-    integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous">
-  </script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/js/all.min.js"></script>
+
 </body>
 
 </html>
