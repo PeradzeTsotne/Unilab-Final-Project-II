@@ -2,6 +2,7 @@ html,
 body {
   width: 100%;
   height: 100%;
+  scroll-behavior: smooth;
 }
 
 body {
@@ -363,7 +364,7 @@ body {
   font-weight: 300;
   line-height: 28px;
   color: #6a7695;
-  margin-bottom: 20px;
+
 }
 
 .new_footer_top .company_widget .f_subscribe_two .btn_get {
@@ -628,7 +629,6 @@ h4 {
   display: flex;
   align-items: center;
   justify-content: center;
-  color: #666;
   border-radius: 50%;
   transition: all 0.3s;
   font-size: 0.9rem;
@@ -638,5 +638,27 @@ h4 {
 .social-link:focus {
   background: #ddd;
   text-decoration: none;
-  color: #555;
+
+}
+
+/* ==== */
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  background-color: #555;
+
+  color: white;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 4px;
+}
+
+#myBtn:hover {
+  background-color: red;
 }
