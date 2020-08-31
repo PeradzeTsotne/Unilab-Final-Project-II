@@ -39,7 +39,19 @@
       rel="stylesheet"
       href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
     />
-    <title>Home</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+    />
+    <title>Recomendation</title>
   </head>
 
   <body>
@@ -294,77 +306,84 @@
       </div>
     </section>
     <!-- ============================================Contact Page======================================== -->
-    <div class="container contact" style="margin-top: 50px">
-      <div class="row">
-        <div class="col-md-3">
-          <div class="contact-info">
-            <img
-              src="https://image.ibb.co/kUASdV/contact-image.png"
-              alt="image"
-            />
-            <h2>Contact Us</h2>
-            <h4>We would love to hear from you !</h4>
+    <section>
+      <div class="container contact" style="margin-top: 50px; display: none">
+        <div class="row">
+          <div class="col-md-3">
+            <div class="contact-info">
+              <img
+                src="https://image.ibb.co/kUASdV/contact-image.png"
+                alt="image"
+              />
+              <h2>Contact Us</h2>
+              <h4>We would love to hear from you !</h4>
+            </div>
           </div>
-        </div>
-        <div class="col-md-9">
-          <div class="contact-form">
-            <div class="form-group">
-              <label class="control-label col-sm-2" for="fname"
-                >First Name:</label
-              >
-              <div class="col-sm-10">
-                <input
-                  type="text"
-                  class="form-control"
-                  id="fname"
-                  placeholder="Enter First Name"
-                  name="fname"
-                />
+          <div class="col-md-9">
+            <div class="contact-form">
+              <div class="form-group">
+                <label class="control-label col-sm-2" for="fname"
+                  >First Name:</label
+                >
+                <div class="col-sm-10">
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="fname"
+                    placeholder="Enter First Name"
+                    name="fname"
+                  />
+                </div>
               </div>
-            </div>
-            <div class="form-group">
-              <label class="control-label col-sm-2" for="lname"
-                >Last Name:</label
-              >
-              <div class="col-sm-10">
-                <input
-                  type="text"
-                  class="form-control"
-                  id="lname"
-                  placeholder="Enter Last Name"
-                  name="lname"
-                />
+              <div class="form-group">
+                <label class="control-label col-sm-2" for="lname"
+                  >Last Name:</label
+                >
+                <div class="col-sm-10">
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="lname"
+                    placeholder="Enter Last Name"
+                    name="lname"
+                  />
+                </div>
               </div>
-            </div>
-            <div class="form-group">
-              <label class="control-label col-sm-2" for="email">Email:</label>
-              <div class="col-sm-10">
-                <input
-                  type="email"
-                  class="form-control"
-                  id="email"
-                  placeholder="Enter email"
-                  name="email"
-                />
+              <div class="form-group">
+                <label class="control-label col-sm-2" for="email">Email:</label>
+                <div class="col-sm-10">
+                  <input
+                    type="email"
+                    class="form-control"
+                    id="email"
+                    placeholder="Enter email"
+                    name="email"
+                  />
+                </div>
               </div>
-            </div>
-            <div class="form-group">
-              <label class="control-label col-sm-2" for="comment"
-                >Comment:</label
-              >
-              <div class="col-sm-10">
-                <textarea class="form-control" rows="5" id="comment"></textarea>
+              <div class="form-group">
+                <label class="control-label col-sm-2" for="comment"
+                  >Comment:</label
+                >
+                <div class="col-sm-10">
+                  <textarea
+                    class="form-control"
+                    rows="5"
+                    id="comment"
+                  ></textarea>
+                </div>
               </div>
-            </div>
-            <div class="form-group">
-              <div class="col-sm-offset-2 col-sm-10">
-                <button type="submit" class="btn btn-default">Submit</button>
+              <div class="form-group">
+                <div class="col-sm-offset-2 col-sm-10">
+                  <button type="submit" class="btn btn-default">Submit</button>
+                </div>
               </div>
             </div>
           </div>
         </div>
       </div>
-    </div>
+    </section>
+
     <!-- ====================================About Us===================================== -->
     <div class="bg-light">
       <div class="container py-5">
@@ -602,6 +621,88 @@
         </div>
       </div>
     </div>
+    <section>
+      <div id="testimonials" class="col-md-12">
+        <div class="testimonial-content">
+          <h3 class="text-center" style="font-weight: bolder; color: red">
+            What our customers says
+          </h3>
+          <div class="testimonal-container">
+            <div class="row">
+              <div class="col-md-12">
+                <div
+                  class="cust-testimonials text-center owl-carousel owl-theme"
+                >
+                  <div class="testimonial">
+                    <img
+                      src="Img/men1.jpg"
+                      alt="person"
+                      class="img-responsive img-circle"
+                      width="600px"
+                      height="600px"
+                    />
+                    <blockquote class="text-center">
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Laudantium impedit labore tenetur dignissimos quam
+                      possimus deserunt, facilis, esse nesciunt consequuntur
+                      commodi, at corrupti sed ex.
+                    </blockquote>
+                    <div class="testimonial-author">
+                      <p>
+                        <strong>John Mackalister</strong>
+                        <span>Ceo & Founder Google</span>
+                      </p>
+                    </div>
+                  </div>
+                  <div class="testimonial">
+                    <img
+                      src="Img/wmn.jpg"
+                      alt="person"
+                      class="img-responsive img-circle"
+                      width="600px"
+                      height="600px"
+                    />
+                    <blockquote class="text-center">
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Laudantium impedit labore tenetur dignissimos quam
+                      possimus deserunt, facilis, esse nesciunt consequuntur
+                      commodi, at corrupti sed ex.
+                    </blockquote>
+                    <div class="testimonial-author">
+                      <p>
+                        <strong>John Mackalister</strong>
+                        <span>Ceo & Founder Google</span>
+                      </p>
+                    </div>
+                  </div>
+                  <div class="testimonial">
+                    <img
+                      src="Img/men3.jpg"
+                      alt="person"
+                      class="img-responsive img-circle"
+                      width="600px"
+                      height="600px"
+                    />
+                    <blockquote class="text-center">
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Laudantium impedit labore tenetur dignissimos quam
+                      possimus deserunt, facilis, esse nesciunt consequuntur
+                      commodi, at corrupti sed ex.
+                    </blockquote>
+                    <div class="testimonial-author">
+                      <p>
+                        <strong>John Mackalister</strong>
+                        <span>Ceo & Founder Google</span>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
     <footer>
       <footer class="new_footer_area bg_color">
         <div class="new_footer_top">
@@ -740,7 +841,21 @@
       integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
       crossorigin="anonymous"
     ></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
 
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://code.jquery.com/jquery-migrate-3.3.1.js"></script>
+    <script>
+      $(function () {
+        $(".cust-testimonials").owl -
+          carousel({
+            items: 1,
+            autoplay: true,
+            smartSpeed: 700,
+            look: true,
+            autoPlayHobetPause: true,
+          });
+      });
+    </script>
   </body>
 </html>

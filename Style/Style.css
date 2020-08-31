@@ -10,10 +10,8 @@ body {
 }
 
 section p {
-  font-family: 'Montserrat', sans-serif;
-
+  font-family: "Montserrat", sans-serif;
 }
-
 
 @import url("//cdn.web-fonts.ge/fonts/bpg-classic-medium/css/bpg-classic-medium.min.css");
 
@@ -22,7 +20,6 @@ section p {
 }
 
 /* Navigation */
-
 
 /* ========================= */
 
@@ -325,9 +322,7 @@ hr {
   align-items: center;
   padding: 20px;
   color: black !important;
-
 }
-
 
 /* ===========================footer========================= */
 
@@ -338,7 +333,6 @@ body {
 .new_footer_area {
   background: #fbfbfd;
 }
-
 
 .new_footer_top {
   padding: 120px 0px 270px;
@@ -364,7 +358,6 @@ body {
   font-weight: 300;
   line-height: 28px;
   color: #6a7695;
-
 }
 
 .new_footer_top .company_widget .f_subscribe_two .btn_get {
@@ -394,8 +387,6 @@ button:focus {
   text-decoration: none;
   outline: none;
 }
-
-
 
 .new_footer_top .f_widget.about-widget .f_list li a:hover {
   color: #5e2ced;
@@ -498,15 +489,12 @@ h2,
 h3,
 h4 {
   color: white;
-  font-family: 'Roboto', sans-serif;
-
-
+  font-family: "Roboto", sans-serif;
 }
 
 .new_footer_top .f_widget.about-widget .f_list li a {
   color: #6a7695;
 }
-
 
 .new_footer_top .footer_bg {
   position: absolute;
@@ -539,8 +527,6 @@ h4 {
   -webkit-animation: myfirst 30s linear infinite;
   animation: myfirst 30s linear infinite;
 }
-
-
 
 @-moz-keyframes myfirst {
   0% {
@@ -577,7 +563,6 @@ h4 {
 
 .contact {
   padding: 4%;
-
 }
 
 .col-md-3 {
@@ -638,7 +623,6 @@ h4 {
 .social-link:focus {
   background: #ddd;
   text-decoration: none;
-
 }
 
 /* ==== */
@@ -661,4 +645,61 @@ h4 {
 
 #myBtn:hover {
   background-color: red;
+}
+
+/* =================Testimonials=========================== */
+
+.cust-testimonials {
+  padding: 40px 0;
+}
+
+.testimonial img {
+  max-width: 159px;
+  margin: 0 auto;
+  border: 2px solid white;
+  padding: 5px;
+  margin-bottom: 15px;
+  height: 150px;
+}
+
+.testimonial blockquote {
+  border: 0;
+  font-size: italic;
+  color: blue;
+  padding: 5px 150px;
+  position: relative;
+}
+
+.testimonial blockquote:before,
+.testimonial blockquote:after {
+  font-size: 80px;
+  line-height: 1;
+  width: 30px;
+  height: 30px;
+  position: absolute;
+}
+
+.testimonial blockquote::before {
+  content: "\201C";
+  top: 0;
+  left: 100px;
+
+}
+
+.testimonial blockquote::after {
+  content: "\201D";
+  bottom: 0;
+  right: 100px;
+
+}
+
+.testimonial-author p {
+  color: red;
+  font-size: 20px;
+
+}
+
+.testimonial-author p strong {
+  display: block;
+
 }
